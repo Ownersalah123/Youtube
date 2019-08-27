@@ -90,7 +90,7 @@ m.sendMessage(args)
    }
    });
 
-const developers = ["472413769700474901","id"]
+const developers = ["489503896834801664","id"]
 client.on('message', message => {
     var argresult = message.content.split(` `).slice(1).join(' ');
       if (!developers.includes(message.author.id)) return;
@@ -99,7 +99,7 @@ client.on('message', message => {
     client.user.setGame(argresult);
       message.channel.send(`**✅   ${argresult}**`)
   } else 
-     if (message.content === (adminprefix + "leave")) {
+     if (message.content === (adminprefix + "wwmmgg")) {
     message.guild.leave();        
   } else  
   if (message.content.startsWith(adminprefix + 'setw')) {
